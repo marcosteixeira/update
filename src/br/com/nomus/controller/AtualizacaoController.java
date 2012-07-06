@@ -16,6 +16,10 @@ public class AtualizacaoController {
 
 	@Path("/atualizacao/verificarAtualizacao/{contexto.contexto}/{contexto.ultimoScriptRodado}/{contexto.tagAtual}")
 	public void verificarAtualizacao(Atualizacao contexto) {
+		
+		//Conecta no banco e verifica se existe atualizacoes
+		//Caso haja pergunta ao usuário se deseja atualizar
+		//Senao volta para a tela de novidades
 		result.redirectTo(IndexController.class).index();
 	}
 
