@@ -1,0 +1,13 @@
+
+p.radial {
+	
+	color: #fff;
+	height: 7px;
+	padding: 8px;
+	text-align: right;
+	font-size: 14px;
+	
+	background: -webkit-gradient(radial, 500 300, 99, 90% 250, 100, from(#FFF), to(#000) ) repeat-X;
+	
+	background: -moz-linear-gradient(left, white, white, white, black);
+}
